@@ -1,0 +1,14 @@
+[package]
+name = "Swap_Token_Contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+aptosswap = "0xSwap"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
